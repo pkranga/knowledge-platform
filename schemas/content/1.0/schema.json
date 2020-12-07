@@ -1141,7 +1141,8 @@
                 "Plugin",
                 "Lesson Plan Unit",
                 "Course Unit",
-                "Textbook Unit"
+                "Textbook Unit",
+                "Playlist"
             ]
         },
         "additionalCategories": {
