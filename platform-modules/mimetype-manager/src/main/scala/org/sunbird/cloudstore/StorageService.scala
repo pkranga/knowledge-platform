@@ -32,7 +32,7 @@ class StorageService {
                 val storageKey = Platform.config.getString("cephs3_storage_key")
                 val storageSecret = Platform.config.getString("cephs3_storage_secret")
                 val endpoint = Platform.config.getString("cephs3_storage_endpoint")
-                storageService = StorageServiceFactory.getStorageService(new StorageConfig(storageType, storageKey, storageSecret, Option("endpoint")))
+                storageService = StorageServiceFactory.getStorageService(new StorageConfig(storageType, storageKey, storageSecret))
 
             } 
             
